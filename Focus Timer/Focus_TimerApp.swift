@@ -12,6 +12,8 @@ struct Focus_TimerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark)
+                .tint(Color(red: 0.46, green: 0.86, blue: 0.99))
         }
     }
 }
